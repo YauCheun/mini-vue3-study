@@ -1,0 +1,22 @@
+{
+  "name": "mini-vue3-study",
+  "version": "1.0.0",
+  "description": "<!--\r  * @Author: YauCheun 1272125039@qq.com\r  * @Date: 2024-02-24 11:43:18\r  * @LastEditors: YauCheun 1272125039@qq.com\r  * @LastEditTime: 2024-02-24 12:00:45\r  * @FilePath: \\mini-vue3-study\\README.md\r  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE\r -->\r # mini-vue3-study\r vue3的一些核心逻辑，实现一个vue3简易版（核心逻辑）框架。用来更好的理解vue3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YauCheun/mini-vue3-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YauCheun/mini-vue3-study/issues"
+  },
+  "homepage": "https://github.com/YauCheun/mini-vue3-study#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
