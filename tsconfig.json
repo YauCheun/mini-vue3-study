@@ -9,12 +9,11 @@
       "preserveConstEnums": true,
       "sourceMap": true,
       "downlevelIteration": true,
+      "types": ["jest"],      
       "strict": false,
       "alwaysStrict": false,
       "outDir": "./dist"
   },
-  "include": [
-      "**/*"
-  ],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"],
   "exclude": []
 }
