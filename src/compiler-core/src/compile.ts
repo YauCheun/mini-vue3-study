@@ -1,4 +1,4 @@
-
+import { generate } from "./codegen";
 import { baseParse } from "./parse";
 import { transform } from "./transform";
 import { transformExpression } from "./transforms/transfomExpression";
@@ -15,6 +15,7 @@ export function baseCompile(template: string) {
   });
   console.log(ast)
   // 3.转成render函数
+  return generate(ast)
 }
 // baseCompile('<img />')             
 baseCompile('<div :test="test" class="test"><p style=""></p>{{message}}</div>')             
